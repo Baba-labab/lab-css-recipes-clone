@@ -34,16 +34,38 @@ body {
   text-align: center;
   height: 400px;
 }
+h2 {
+  font-weight: bold;
+  font-size:x-large;
+}
+div {
+  width: 100%;
+  padding: 10px;
+  margin: 20px;
+}
 
-div p {
-  text-align: center;
+p {
+  text-align: justify;
+  line-height: 1.2;
 }
 
 ul {
-  list-style-type:none 
+  list-style-type:none;
+  text-align: justify;
+  line-height: 1.2;
 }
 
 li::before {
   content: "-";
   margin-right: 0.5em;
+}
+
+.info-image {
+  text-align: center;
+  margin: 20px;
+
+}
+
+.info-image img {
+  height: 70px;
 }

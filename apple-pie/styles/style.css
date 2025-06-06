@@ -33,20 +33,22 @@ body {
   color: white;
   text-align: center;
   height: 400px;
+  justify-content: center;
 }
 h2 {
-  font-weight: bold;
   font-size:x-large;
+  text-align: left;
 }
 div {
-  width: 100%;
-  padding: 10px;
-  margin: 20px;
+  width: 500px;
+  padding: 20px;
+  margin: 0 auto;
 }
 
 p {
   text-align: justify;
   line-height: 1.2;
+  padding: 20px;
 }
 
 ul {
@@ -55,17 +57,30 @@ ul {
   line-height: 1.2;
 }
 
-li::before {
+ul > li::before {
   content: "-";
   margin-right: 0.5em;
 }
 
 .info-image {
-  text-align: center;
-  margin: 20px;
+ text-align: center;
 
 }
 
 .info-image img {
   height: 70px;
+}
+
+ol {
+  text-align: justify;
+  line-height: 1.2;
+}
+
+ol > li::before {
+  content: " ) ";
+}
+
+hr {
+  border-width: 2px;
+  margin: 0 100px;
 }
